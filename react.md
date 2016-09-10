@@ -24,3 +24,8 @@
 * Eg: `slice` is a pure function, as it returns the same element even on multiple invocations (It does not modify the array)
 * `splice` is not a pure function, as it modifies the array. It gives different results on multiple invocations
 * The `render` method needs to be a Pure function. It is a good idea to make functions pure in React.
+
+### PropTypes
+* Provide some type checking for `props`
+* If the passed `prop` is not of the defined type, there will be a console error
+* Can be used to make a `prop` required or checking specific properties of an object.
